@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+}
+
+body {
+
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #2D2D2D;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #2D2D2D;
+    font-weight: 400;
+}
+
+.button {
+    background-color: #F8D57E;
+}
+
+.top-bar {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.top-bar .nav {
+    margin: 23px 100px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.top-bar .nav .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.top-bar .nav .auth-buttons {
+    position: absolute;
+    right: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    background-color: #F7F5FD;
+}
+
+.header .frame {
+    text-align: center;
+    padding: 143px 256px;
+}
+
+.header .frame .title {
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.header .frame .subtitle {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 152px 40px 151px;
+    opacity: 0.4000000059604645;
+}
+
+.header .frame .button {
+    margin-left: 283px;
+    margin-right: 283px;
+    border-radius: 10px;
+}
+
+.header .frame .button a{
+    text-decoration: none;
+}
+
+.header .frame .button .subtitle {
+    font-size: 18px;
+    margin: auto 0;
+    padding: 16px;
+    line-height: 32px;
+}
+
+.video {
+
+    background-color: #F2FAF8;
+    position: relative;
+}
+
+.video .rectangle {
+
+    padding: 70px 258px;
+}
+
+.video .polygon {
+    position:absolute;
+    top:0;
+    padding: 274px 618px;
+}
+
+.logos .group {
+    width: 1280px;
+    height: 400px;
+}
+
+.features .group{
+    padding: 40px 300px;
+    list-style: none;
+    text-decoration: none;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features .group li {
+    padding: 40px 60px 21px 40px;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+}
+
+.features .group .logo {
+    height: 65px;
+    width: 65px;
+    margin-bottom: 30px;
+}
+
+.features .title {
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 15px;
+}
+
+.features .subtitle {
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 0.5;
+}
+
+.user-feedback {
+    background-color: #E5F4F2;
+    text-align: center;
+}
+
+.user-feedback .quote {
+    padding: 133px 309px;
+}
+
+.user-feedback .quote .icon {
+
+    width: 62px;
+    height: 45px;
+}
+
+.user-feedback .quote .title{
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.user-feedback .quote .subtitle{
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.header .frame1 {
+    background-color: #FCFAF5;
+}
+
+.header .frame1 .frame {
+    padding: 107px 330px;
+}
+
+.header .frame1 .frame .subtitle {
+    margin: 30px 118px 40px 117px;
+    opacity: 0.5;
+}
+
+.header .frame1 .frame .button {
+    margin-left: 209px;
+    margin-right: 209px;
+    border-radius: 10px;
+}
+
+.header .frame1 .frame .button .subtitle {
+    font-size: 18px;
+    margin: auto 0;
+    padding: 16px;
+    line-height: 32px;
+}
+
+.footer {
+    height: 135px;
+    background-color: darkolivegreen;
+}
+/*
+
+
+
+.top-bar {
+    background-color: aqua;
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 0;
+}
+
+.header {
+    background-color: red;
+    height: 600px;
+    width: auto;
+    display: block;
+    padding: 143px 256px;
+}
+
+.header .title {
+    font-size: 80px;
+    text-align: center;
+    color: #2D2D2D;
+    line-height: 90px;
+    padding: 0;
+    margin: 0;
+}
+
+.header .subtitle {
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+    padding: 30px 152px 104px 151px;
+    margin: 0;
+}
+
+.header .started-button {
+
+}
+
+.video {
+    background-color: aquamarine;
+    height: 600px;
+    width: auto;
+    display: block;
+}
+
+.features .title {
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D2D2D;
+}*/
+
+/*.logos {
+    background-image: url("Logos 1280px.svg");
+    background-size: cover;
+    height: 400px;
+}*/
