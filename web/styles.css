@@ -26,32 +26,70 @@ body {
     background-color: #F8D57E;
 }
 
-.top-bar {
-    background-color: blueviolet;
-    height: 100px;
-}
-
 .top-bar .nav {
-    margin: 23px 100px;
-    position: relative;
-    border: 1px solid black;
+    padding: 23px 100px;
+    display: flex;
+    gap: 675px;
+    flex-direction: row;
 }
 
 .top-bar .nav .logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
+    padding: 8px 0;
+    position: relative;
+}
+
+.top-bar .nav .logo .icon-text {
     position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 6px; /* 100% */
+    margin-left: 7%;
+}
+
+.top-bar .nav .logo .pet-title {
+    color: #2D2D2D;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 
 .top-bar .nav .auth-buttons {
-    position: absolute;
-    right: 0;
-    list-style: none;
     display: flex;
+    align-items: center;
     flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    position: relative;
+}
+
+.top-bar .nav .auth-buttons .sign-up .subtitle {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+.top-bar .nav .auth-buttons .log-in {
+    border-radius: 10px;
+    background-color: #36F;
+}
+
+.top-bar .nav .auth-buttons .log-in .subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 11px 30px;
+    color: #FFFFFF;
 }
 
 .header {
